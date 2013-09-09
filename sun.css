@@ -172,9 +172,7 @@ h1.banner {
     float: left;
 }
 
-#middlebox button{
-    
-    .myButton {
+ button.myButton {
         
         -moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
         -webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
@@ -207,7 +205,7 @@ h1.banner {
         text-shadow:0px 1px 0px #86ae47;
         
     }
-    .myButton:hover {
+    button.myButton:hover {
         
         background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
         background:-moz-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
@@ -219,7 +217,7 @@ h1.banner {
         
         background-color:#a5cc52;
     }
-    .myButton:active {
+    button.myButton:active {
         position:relative;
         top:1px;
     }
